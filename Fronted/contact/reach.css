@@ -1,0 +1,287 @@
+/*import google font*/
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lavishly+Yours&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Protest+Guerrilla&family=Road+Rage&family=Roboto+Slab:wght@100..900&family=Tangerine:wght@400;700&display=swap');
+/*body*/
+body{background-color: #fface4;
+  font-family: "Tangerine", cursive;
+  font-size: 50px;
+  }
+/*header*/
+header{margin-top: -0.5%;
+      background-color: #f5ffc6;
+      height: 150px;
+      width: 101%;
+      margin-left: -0.5%;
+}
+.logo{height: 200px;
+border-radius: 20%;
+margin-left: 1%;}
+.navlinks{  display: flex;
+  list-style: none;
+margin-left: 450px;
+  gap: 20px;
+margin-top: -150px;
+
+}
+.navlinks a{color: #eb9b13;
+}
+/*menu drop for menu nav*/
+.button {
+  background-color: #f5ffc6;
+  color: #eb9b13;
+
+  font-size: 16px;
+  border: none;
+  font-family: "Tangerine", cursive;
+  font-size: 50px;
+}
+
+.menu_dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.content a:hover {background-color: #f1f1f1}
+
+.menu_dropdown:hover .content {
+  display: block;
+}
+
+.menu_dropdown:hover .button {
+  background-color: #f5ffc6;
+}
+.cart{margin-top: 50px;
+  margin-left: 86%;
+
+
+}
+.profile{margin-top: 50px;
+}
+.contact{text-align: center;
+background-color: bisque;
+width: 700px;
+margin-left: 400px;}
+h3{font-size: 50px;
+font-weight:bolder;}
+.call{font-size: 50px;
+    font-weight:bolder;}
+.no{font-size: 60px;
+    font-weight:bolder;}
+.location{text-align: center;
+margin-top: 5px;
+background-color: bisque;
+width: 850px;
+margin-left: 320px;}
+.visit{font-size: 50px;
+  font-weight:bolder;}
+.locate{font-size: 60px;
+  font-weight:bolder;}
+
+
+  .Chats{text-align: center;
+    margin-top: 5px;
+    background-color: bisque;
+    width: 500px;
+    margin-left: 500px;}
+.email{font-size: 50px;
+      font-weight:bolder;}
+.gmail{font-size: 60px;
+      font-weight:bolder;}
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #efd792;
+  color: rgb(0, 0, 0);
+  padding: 16px 20px;
+  border: none;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+  font-size: 24px;
+ 
+}
+
+/* The popup chat - hidden by default */
+.popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  font-size: 40px;
+  
+
+}
+
+/* Add styles to the form container */
+.form {
+  width: 500px;
+  padding: 10px;
+  background-color: #ffedb9;;
+}
+
+/* Full-width textarea */
+.form textarea {
+  width: 400px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  height: 310px;
+}
+
+/* When the textarea gets focus, do something */
+.form textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form .btn {
+  background-color: #67efd4;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  width: 100px;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form .cancel {
+  background-color: rgb(249, 99, 99);
+}
+
+
+.form .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+/*social buttons*/
+.social-media{text-align: center;
+  background-color: bisque;
+  width: 300px;
+  margin-left: 600px;}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  
+  text-decoration: none;
+  margin: 5px 2px;
+  
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa-google {
+  background-color: red;
+  color: white;
+}
+
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background-image: linear-gradient(#fccc63,#fbad50,#cd486b, #4c68d7);
+  color: white;
+}
+/*footer*/
+footer{background-color: #f5ffc6;
+  height: 350px;
+  width: 101%;
+  margin-top: 5%;
+  margin-left: -0.5%;
+  }
+  .place h3{font-size: 3rem;
+  margin-left: 30%;
+  margin-top: -12%;
+  }
+  .place p{font-size: 2.5rem;
+  margin-left: 30%;
+  margin-top: -1%;
+  }
+  .contact_detail h4{margin-top:-11%;
+  margin-left:60%}
+  .contact_detail p{margin-top:-3%;
+  margin-left:60%}
+  /*media quires*/
+  /*mobile*/
+  @media(min-width:320px) and (max-width:480px){
+    header {
+      height: 140px;
+      width: 1555px;
+    }
+    footer{background-color: #f5ffc6;
+      height: 350px;
+      width: 500%;
+      margin-top: 80%;
+      margin-left: -0.5%;
+      }
+  .place h3{font-size: 3rem;
+   margin-left: 30%;
+  margin-top: -5%;
+  }
+ .place p{font-size: 2.5rem;
+  margin-left: 30%;
+   margin-top: -1%;
+        }
+        .contact_detail h4{margin-top:-11%;
+        margin-left:60%}
+        .contact_detail p{margin-top:-3%;
+        margin-left:60%}
+  
+  }
+/*tablets*/
+
+@media(min-width:481px) and (max-width:768px){
+  header {
+    height: 140px;
+    width: 1555px;
+  }
+  footer{background-color: #f5ffc6;
+    height: 350px;
+    width: 207%;
+    margin-top: 80%;
+    margin-left: -0.5%;
+    }
+
+}
+/*Laptop*/
+@media(min-width:1024px) and (max-width:1440px){
+  header {
+    height: 200px;
+    width: 1556px;
+  }
+  footer{background-color: #f5ffc6;
+  height: 350px;
+  width: 155%;
+  margin-top: 20%;
+  margin-left: -0.5%;
+  }
+
+}
+

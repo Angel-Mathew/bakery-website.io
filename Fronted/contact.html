@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="contact/reach.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/x-icon" href="bakery_logo/bakery_logo.png">
+
+<title> Glimpse of Joy</title>
+</head>
+<body>
+                                        <!----header-->
+    <header>
+   
+        <div class="logo">
+          <a href="http://127.0.0.1:5500/Fronted/main_page.html"><img src="bakery_logo/bakery_logo.png" alt="bakery_logo" ></a>
+            
+        </div>
+                                         <!----navagation-->
+        
+        <nav>
+            <ul class="navlinks">
+            <li class="About"><a href="http://127.0.0.1:5500/Fronted/main_page.html"> About</a></li>
+                                        <!-----menu dropdown-->
+            <div class="menu_dropdown">
+            <button class="button"><u>Menu</u></button>
+            <div class="content">
+              <a href="http://127.0.0.1:5500/Fronted/cake.html">cakes</a>
+              <a href="http://127.0.0.1:5500/Fronted/Sweets.html">sweets</a>
+              <a href="http://127.0.0.1:5500/Fronted/breads.html">breads</a>
+              <a href="http://127.0.0.1:5500/Fronted/snacks.html">snacks</a>
+              </div>
+            </div>
+            <li ><a href="http://127.0.0.1:5500/Fronted/offers.html">Offers</a></li>
+            <li><a href="http://127.0.0.1:5500/Fronted/contact.html">Contact/reach us</a></li>
+          </ul>
+           </nav>
+         <ul class="navlinks">
+            <li class="cart"><a> <img src="cart/shopping-cart.png"></a></li>
+            <li class=" profile"><a> <img src="profile/profile.png"></a></li>
+         </ul>
+ </header>
+ <!---phone-->
+ <div class="contact"> 
+  <h3><u>Phone</u></h3>
+  <p class="call"> Call us anytime  :> </p>
+  <img src="reach img/call.gif">
+  <p class="no">+971 55 555 5555</p>
+</div>
+<!----place-->
+<div class="location"> 
+  <h3><u>Location</u></h3>
+  <p class="visit"> Visit us anytime  :> </p>
+  <img src="reach img/location.gif" class="local">
+  <p class="locate">sharjah,Bu Daniq street</p>
+</div>
+<!----email & chats-->
+<div class="Chats"> 
+  <h3><u>email & live chat</u></h3>
+  <p class="email"> any request or question,email us  :> </p>
+  <img src="reach img/talking-1988_128.gif" >
+  <p class="gmail">Glimpseofjoy@gmail.com</p>
+
+  
+</div>
+<!----live chat-->
+<button class="open-button" onclick="openForm()">Live-Chat</button>
+
+<div class="popup" id="chatform">
+  <form action="/action_page.php" class="form">
+    <h3>Chat</h3>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+<!----social medias-->
+
+<div class="social-media">
+  <h3>Social Medias</h3> 
+  <a href="#" class="fa fa-google"></a>
+  <a href="#" class="fa fa-youtube"></a>
+  <a href="#" class="fa fa-instagram"></a>
+  </div>
+  <!---footer-->
+  <footer>
+    <div class="logo">
+      <img src="bakery_logo/bakery_logo.png" alt="bakery_logo">
+  </div>
+  <div class="place">
+    <h3>Location</h3>
+    <p>sharjah,Bu Daniq street</p>
+  </div>
+ <section class="contact_detail">
+    <h4 >Contact us</h4>
+    <p >Phone: +971 55 555 5555<br>
+      Email:  info@Glimpseofjoy.com<br>
+      Facebook: Glimpseofjoy<br>
+      Instagram: Glimpseofjoy
+     </p>
+  </section>
+  </footer>
+<script src="contact/reach.js"></script>
+</body>
+</html>

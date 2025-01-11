@@ -1,0 +1,1144 @@
+/*import google font*/
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lavishly+Yours&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Protest+Guerrilla&family=Road+Rage&family=Roboto+Slab:wght@100..900&family=Tangerine:wght@400;700&display=swap');
+/*body*/
+body{background-color: #fface4;
+  font-family: "Tangerine", cursive;
+  font-size: 50px;
+  }
+/*header*/
+header{margin-top: -0.5%;
+      background-color: #f5ffc6;
+      height: 150px;
+      width: 101%;
+      margin-left: -0.5%;
+}
+.logo{height: 200px;
+border-radius: 20%;}
+.navlinks{  display: flex;
+  list-style: none;
+margin-left: 460px;
+  gap: 21px;
+margin-top: -150px;
+font-size: 50px;
+
+}
+.navlinks a{color: #eb9b13;
+}
+/*menu drop for menu nav*/
+.button {
+  background-color: #f5ffc6;
+  color: #eb9b13;
+
+  font-size: 16px;
+  border: none;
+  font-family: "Tangerine", cursive;
+  font-size: 50px;
+}
+
+.menu_dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.content a:hover {background-color: #f1f1f1}
+
+.menu_dropdown:hover .content {
+  display: block;
+}
+
+.menu_dropdown:hover .button {
+  background-color: #f5ffc6;
+}
+.cart{margin-top: 55px;
+  margin-left: 87%;
+
+
+}
+.profile{margin-top: 55px;
+}
+/*chocolate dripping design*/
+.chocolate_design{margin-top: 10px;
+
+  background-color: #7a2800;
+  height: 500px;
+  width:100%;
+  clip-path:polygon(  0% 0%, 100% 0%, 100% 70%, 
+  90% 80%, 85% 65%, 80% 75%, 70% 60%, 
+  60% 70%, 50% 50%, 40% 70%, 
+  30% 50%, 20% 70%, 10% 60%, 
+  0% 80%);/*clip-path allows to make non-rectangular paths...for example for making chocolate dip design*/
+}
+.text {
+  text-align: center;
+  color: #eb9b13; 
+ 
+
+  position: relative;
+  top: 50px;
+  margin-top: 20px;
+ margin-right: 100px;
+ 
+}
+.cake{margin-top: -20px;
+  margin-left: 950px;}
+
+ .main-contain {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  margin-top: 50px;
+  text-align: center;
+}
+
+/*cake design stickers*/
+.stickers {
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: -35%;
+  margin-left: 20%;
+}
+.bread{margin-left: 10%;}
+.pizza{margin-left: 10%;}
+
+.stickers img {
+  height: 100px;
+  width: 100px;
+}
+.right_side_stickers {
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: -37%;
+
+}
+.right_side_stickers img {
+  height: 100px;
+  width: 100px;
+}
+.hat{
+  margin-left: 70%;
+}
+.piping{margin-left: 80%;
+}
+.mixing{margin-left: 80%;
+  }
+.laddu{margin-left: 80%;
+    }
+.puff{margin-left: 70%;
+  }
+                     /* main contain*/
+.intro h1 {
+  
+ font-size: 3rem;
+text-align: center;
+}
+
+.intro p {
+  background-color: #006992;
+color:#f5ffc6;
+font-size: 50px;
+
+text-align: center;
+gap: 40px;
+width: 500px;
+padding: 20px;
+margin-left: 500px;
+}
+
+.intro button {
+  background-color: #006992;
+  color:#f5ffc6;
+  font-size: 50px;
+  font-family: "Tangerine", cursive;
+  text-align: center;
+ width: 400px;
+  padding: 20px;
+  margin-left: 570px;
+margin-top: -30%;
+}
+ h2{text-align: center;
+   font-size: 3rem;
+  
+}
+                                         /*menu*/
+.cak{color:#ffc96c;}
+.cakes{font-size: 3rem;
+width: 200px;
+height: 200px;
+border-radius: 100px;
+box-shadow: #fffffe 5px 5px 5px 5px;
+margin-left: 555px;
+background-color: #A42CD6;
+font-family: "Tangerine", cursive;
+color: #ffc96c;
+font-weight: 800;
+}
+.butterscotch_cake{height: 100px;
+width:100px;
+
+}
+.sw{color:#ffc96c;}
+.sweets{font-size: 3rem;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  box-shadow: #eb9b13 5px 5px 5px 5px;
+  margin-left: 50px;
+  background-color: #A42CD6;
+  font-family: "Tangerine", cursive;
+  color: #ffc96c;
+  
+  }
+  .sweet{height: 120px;
+  width:120px;
+  
+  }
+  .br{color:#ffc96c;}
+  .breads{font-size: 3rem;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    box-shadow: #eb9b13 5px 5px 5px 5px;
+    margin-top: 3%;
+    margin-left: 555px;
+    background-color: #A42CD6;
+    font-family: "Tangerine", cursive;
+    color: #ffc96c;
+    padding-top:1%;
+   }
+    .bread{height: 120px;
+    width:120px;
+    
+    }
+    .sn{color:#ffc96c;}
+    .snacks{font-size: 3rem;
+      width: 200px;
+      height: 200px;
+      border-radius: 100px;
+      box-shadow: white 5px 5px 5px 5px;
+      margin-top: 3%;
+      margin-left: 50px;
+      background-color: #A42CD6;
+      font-family: "Tangerine", cursive;
+      color: #ffc96c;
+      padding-top: 1%;
+     
+      }
+    .snack{height: 120px;
+      width:120px;
+     }
+                                               /*stylig for customize part*/
+.customize p{background-color: #7a2800;
+color: #eb9b13;
+height: 300px;
+width: 400px;
+margin-left: 555px;
+text-align: center;
+padding: 20px; }
+.ideas{
+margin-left: 400px;
+margin-top: -33%;
+height: 900px;
+width: 850px;
+}
+                                           /*stylig for events part*/
+.event_management{background-color: rgb(97, 6, 12);
+height: 350px;
+width:550px;
+font-size: 50px;
+color:#f5ffc6;
+text-align: center;
+margin-left: 500px;
+ margin-top: -30%;
+ padding: 5px;
+}
+/* Birthday function*/
+.birthday_flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  margin-left: 270px;
+  margin-top: 20px;
+ 
+}
+
+.birthday_flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+ 
+}
+
+.birthday_flip-card:hover .birthday_flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.birthday_flip-card-front,.birthday_flip-card-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 20px;
+ 
+  
+  
+}
+
+.birthday_flip-card-front {
+  background-color: rgb(97, 6, 12);
+  color: rgb(244, 239, 239);
+  font-size: 50px;
+  
+}
+
+.birthday_flip-card-back {
+  background-color:  #eb9b13;
+  color: rgb(97, 6, 12);
+  transform: rotateY(180deg);
+  font-size:2.5rem;
+  
+}
+/* Wedding function */
+.wedding_flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  margin-left:575px;
+  margin-top: -300px;
+ 
+}
+
+.wedding_flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+ 
+}
+
+.wedding_flip-card:hover .wedding_flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.wedding_flip-card-front,.wedding_flip-card-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 20px;
+ 
+  
+  
+}
+
+.wedding_flip-card-front {
+  background-color: rgb(97, 6, 12);
+  color: rgb(244, 239, 239);
+  font-size: 50px;
+  
+}
+
+.wedding_flip-card-back {
+  background-color:  #eb9b13;
+  color: rgb(97, 6, 12);
+  transform: rotateY(180deg);
+  font-size: 2.5rem
+}
+/* anniversary function */
+.anniversary_flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  margin-left:880px;
+  margin-top: -300px;
+ 
+}
+
+.anniversary_flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+ 
+}
+
+.anniversary_flip-card:hover .anniversary_flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.anniversary_flip-card-front,.anniversary_flip-card-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 20px;
+ 
+  
+  
+}
+
+.anniversary_flip-card-front {
+  background-color: rgb(97, 6, 12);
+  color: rgb(244, 239, 239);
+  font-size: 50px;
+  
+}
+
+.anniversary_flip-card-back {
+  background-color:  #eb9b13;
+  color: rgb(97, 6, 12);
+  transform: rotateY(180deg);
+  font-size: 2.5rem
+}
+/*Retirement*/
+.Retirement_flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  margin-left:270px;
+  margin-top: 1%;
+  
+ 
+}
+
+.Retirement_flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+ 
+}
+
+.Retirement_flip-card:hover .Retirement_flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.Retirement_flip-card-front,.Retirement_flip-card-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 20px;
+ 
+  
+  
+}
+
+.Retirement_flip-card-front {
+  background-color: rgb(97, 6, 12);
+  color: rgb(244, 239, 239);
+  font-size: 50px;
+  
+}
+
+.Retirement_flip-card-back {
+  background-color:  #eb9b13;
+  color: rgb(97, 6, 12);
+  transform: rotateY(180deg);
+  font-size: 2.5rem
+}
+                                                  /*Reunion*/
+.Reunion_flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  margin-left:575px;;
+  margin-top: -20%;
+  
+ 
+}
+
+.Reunion_flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+ 
+}
+
+.Reunion_flip-card:hover .Reunion_flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.Reunion_flip-card-front,.Reunion_flip-card-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 20px;
+ 
+  
+  
+}
+
+.Reunion_flip-card-front {
+  background-color: rgb(97, 6, 12);
+  color: rgb(244, 239, 239);
+  font-size: 50px;
+  
+}
+
+.Reunion_flip-card-back {
+  background-color:  #eb9b13;
+  color: rgb(97, 6, 12);
+  transform: rotateY(180deg);
+  font-size: 2.5rem
+}
+                                                           /*New year*/
+.new-year_flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  margin-left:880px;;
+  margin-top: -20%;
+  
+ 
+}
+
+.new-year_flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+ 
+}
+
+.new-year_flip-card:hover .new-year_flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.new-year_flip-card-front,.new-year_flip-card-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 20px;
+ 
+  
+  
+}
+
+.new-year_flip-card-front {
+  background-color: rgb(97, 6, 12);
+  color: rgb(244, 239, 239);
+  font-size: 50px;
+  
+}
+
+.new-year_flip-card-back {
+  background-color:  #eb9b13;
+  color: rgb(97, 6, 12);
+  transform: rotateY(180deg);
+  font-size: 2.5rem
+}
+                                                   /*footer*/
+footer{background-color: #f5ffc6;
+  height: 350px;
+  width: 101%;
+margin-top: 5%;
+margin-left: -0.5%;
+}
+ .place h3{font-size: 3rem;
+margin-left: 30%;
+margin-top: -12%;
+}
+.place p{font-size: 2.5rem;
+  margin-left: 30%;
+  margin-top: -1%;
+  }
+.contact_detail h4{margin-top:-11%;
+ margin-left:60%}
+ .contact_detail p{margin-top:-3%;
+  margin-left:60%}
+                                                   /*log in page*/
+  /* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #ffffff;
+  color: rgb(11, 11, 11);
+  padding: 16px 20px;
+  border: none;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 200px;
+  
+}
+
+/* The popup form - hidden by default */
+.pop-up {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  z-index: 1;/* property specifies the stack level of the box in the current stacking context*/
+ box-shadow: 5px 5px 10px black;
+  border-radius: 5px;
+
+
+}
+
+/* Add styles to the form container */
+.container {
+  width: 200px;
+  padding: 20px;
+  background-color: #f9eccd;
+  text-align: center;
+   font-size: 2.5rem;
+   
+}
+
+/* Full-width input fields */
+.container input[type=text], .container input[type=password] {
+  width: 50%;
+  padding: 15px;
+  border: none;
+  background: #fdd0d0;
+  
+}
+
+/* When the inputs get focus, do something */
+.container input[type=text]:focus, .container input[type=password]:focus {
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px black;
+  outline: none;
+ 
+}
+
+/* Set a style for the submit/login button */
+.container .btn {
+  background-color: #b05a04;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+   width: 70%;
+ 
+  opacity: 0.9;
+  margin-top: 20px;
+}
+
+/* Add a red background color to the cancel button */
+.container .cancel {
+  background-color: #b05a04;
+  margin-top: -10px;
+}
+
+/* Add some hover effects to buttons */
+.container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+/*media quires*/
+/*mobile*/
+@media(min-width:320px) and (max-width:480px){
+  header {
+    height: 140px;
+    width: 1500px;
+  }
+  /*chocolate dripping design*/
+.chocolate_design{margin-top: 10px;
+
+  background-color: #7a2800;
+  height: 500px;
+  width: 1477px;
+  clip-path:polygon(  0% 0%, 100% 0%, 100% 70%, 
+  90% 80%, 85% 65%, 80% 75%, 70% 60%, 
+  60% 70%, 50% 50%, 40% 70%, 
+  30% 50%, 20% 70%, 10% 60%, 
+  0% 80%);
+}
+.intro h1 {
+  
+  font-size: 3rem;
+  margin-left:200%;
+ }
+  /*cake design stickers*/
+.stickers {
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: -150%;
+  margin-left: 60%;
+}
+.bread{margin-left: 40%;}
+.pizza{margin-left: 30%;}
+.right_side_stickers {
+  display: grid;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: -165%;
+  margin-left: 300%;
+}
+.hat{
+  margin-left: 20%;
+}
+
+.puff{margin-left: 20%;
+ }
+   /*menu*/
+h2 {margin-left: 195%;
+  margin-top: 15%;
+}
+.sweets{font-size: 3rem;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  box-shadow: #eb9b13 5px 5px 5px 5px;
+  margin-left: 800px;
+  margin-top: -990%;
+  background-color: #A42CD6;
+  font-family: "Tangerine", cursive;
+  color: #ffc96c;
+  
+  }
+img.bread {height: 120px;
+    width:120px;
+    margin-left:-5%;
+    }
+.snacks{font-size: 3rem;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  box-shadow: #eb9b13 5px 5px 5px 5px;
+  margin-top: 3%;
+  margin-left: 800px;
+  margin-top: -990%;
+  background-color: #A42CD6;
+  font-family: "Tangerine", cursive;
+  color: #ffc96c;
+  padding-top:1%;
+  }
+ /*stylig for customize part*/
+ .ideas{
+  margin-left: 400px;
+  margin-top: -130%;
+  height: 900px;
+  width: 850px;
+  }
+    /*event management*/
+.event_management{background-color: rgb(97, 6, 12);
+  height: 350px;
+  width:550px;
+  font-size: 50px;
+  color:#f5ffc6;
+  text-align: center;
+  margin-left: 500px;
+  margin-top: -130%;
+  padding: 5px;
+  }
+  /*Reunion*/
+.Reunion_flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  margin-left:575px;;
+  margin-top: -83%;
+}
+/*new year*/
+.new-year_flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  margin-left:880px;;
+  margin-top: -83%;
+}
+footer{background-color: #f5ffc6;
+  height: 350px;
+  width: 450%;
+margin-top: 5%;
+margin-left: -0.5%;
+}
+}
+/*tablets*/
+
+@media(min-width:481px) and (max-width:768px){
+  header {
+    height: 140px;
+    width: 1500px;
+  }
+
+  
+ /*chocolate dripping design*/
+.chocolate_design{margin-top: 10px;
+
+  background-color: #7a2800;
+  height: 500px;
+  width:199%;
+  clip-path:polygon(  0% 0%, 100% 0%, 100% 70%, 
+  90% 80%, 85% 65%, 80% 75%, 70% 60%, 
+  60% 70%, 50% 50%, 40% 70%, 
+  30% 50%, 20% 70%, 10% 60%, 
+  0% 80%);
+}
+.cake{margin-top: -20px;
+  margin-left: 900px;}
+.intro h1 {
+  
+  font-size: 3rem;
+  margin-left:100%;
+ }
+ /*cake design stickers*/
+.stickers {
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: -75%;
+  margin-left: 26%;
+}
+.right_side_stickers {
+  display: grid;
+  flex-direction: column;
+
+  gap: 15px;
+  margin-top: -80%;
+  margin-left: 155%;
+
+}
+.hat{
+  margin-left: 20%;
+}
+
+.puff{margin-left: 20%;
+  }
+  /*menu*/
+h2 {margin-left: 100%;
+  margin-top: 5%;
+}
+.cakes {
+  font-size: 3rem;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  box-shadow: #fffffe 5px 5px 5px 5px;
+  margin-left: 550px;
+  background-color: #A42CD6;
+  font-family: "Tangerine", cursive;
+  color: #ffc96c;
+  font-weight: 800;
+}
+.sweets{font-size: 3rem;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  box-shadow: #eb9b13 5px 5px 5px 5px;
+  margin-left: 800px;
+  margin-top: -990%;
+  background-color: #A42CD6;
+  font-family: "Tangerine", cursive;
+  color: #ffc96c;
+  
+  }
+  .snacks{font-size: 3rem;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    box-shadow: #eb9b13 5px 5px 5px 5px;
+    margin-top: 3%;
+    margin-left: 800px;
+    margin-top: -990%;
+    background-color: #A42CD6;
+    font-family: "Tangerine", cursive;
+    color: #ffc96c;
+    padding-top:1%;
+   
+    }
+    /*stylig for customize part*/
+    .ideas{
+      margin-left: 400px;
+      margin-top: -65%;
+      height: 900px;
+      width: 850px;
+      }
+    /*event management*/
+    .event_management{background-color: rgb(97, 6, 12);
+      height: 350px;
+      width:550px;
+      font-size: 50px;
+      color:#f5ffc6;
+      text-align: center;
+      margin-left: 500px;
+      margin-top: -60%;
+      padding: 5px;
+      }
+/*Reunion*/
+.Reunion_flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  margin-left:575px;;
+  margin-top: -40%;
+}
+/*new year*/
+.new-year_flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  margin-left:880px;;
+  margin-top: -40%;
+}
+footer{background-color: #f5ffc6;
+  height: 350px;
+  width: 200%;
+margin-top: 5%;
+margin-left: -0.5%;
+}
+}
+/*Laptop*/
+@media(min-width:1024px) and (max-width:1440px){
+  header {
+    height: 140px;
+    width: 2100px;
+  }
+  .navlinks{  display: flex;
+    list-style: none;
+  margin-left:700px;
+    gap: 20px;
+  margin-top: -150px;
+  
+  }
+  /*chocolate dripping design*/
+.chocolate_design{margin-top: 10px;
+
+  background-color: #7a2800;
+  height: 500px;
+  width:207%;
+  clip-path:polygon(  0% 0%, 100% 0%, 100% 70%, 
+  90% 80%, 85% 65%, 80% 75%, 70% 60%, 
+  60% 70%, 50% 50%, 40% 70%, 
+  30% 50%, 20% 70%, 10% 60%, 
+  0% 80%);
+}
+.cake{margin-top: -20px;
+  margin-left: 1500px;}
+  .intro h1 {
+  
+    font-size: 3rem;
+    margin-left:100%;
+   }
+   .intro p {
+    background-color: #006992;
+  color:#f5ffc6;
+  font-size: 50px;
+  
+  text-align: center;
+  gap: 40px;
+  width: 500px;
+  padding: 20px;
+  margin-left: 800px;
+  }
+  
+  .intro button {
+    background-color: #006992;
+    color:#f5ffc6;
+    font-size: 50px;
+    font-family: "Tangerine", cursive;
+    text-align: center;
+   width: 400px;
+    padding: 20px;
+    margin-left: 850px;
+  margin-top: -30%;
+  }
+/*cake design stickers*/
+.stickers {
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: -54%;
+  margin-left: 55%;
+}
+.right_side_stickers {
+  display: grid;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: -60%;
+  margin-left: 140%;
+
+}
+.hat{
+  margin-left: 20%;
+}
+
+.puff{margin-left: 20%;
+  }
+  /*menu*/
+h2 {margin-left: 100%;
+  margin-top: 5%;
+}
+.cakes {
+  font-size: 3rem;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  box-shadow: #fffffe 5px 5px 5px 5px;
+  margin-left: 86%;
+  background-color: #A42CD6;
+  font-family: "Tangerine", cursive;
+  color: #ffc96c;
+  font-weight: 800;
+}
+.sweets{font-size: 3rem;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  box-shadow: #eb9b13 5px 5px 5px 5px;
+  margin-left: 110%;
+  margin-top: -1500%;
+  background-color: #A42CD6;
+  font-family: "Tangerine", cursive;
+  color: #ffc96c;
+  }
+.breads{font-size: 3rem;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  box-shadow: #eb9b13 5px 5px 5px 5px;
+  margin-top: 3%;
+  margin-left: 86%;
+  background-color: #A42CD6;
+  font-family: "Tangerine", cursive;
+  color: #ffc96c;
+  padding-top:1%;
+  }
+.snacks{font-size: 3rem;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  box-shadow: white 5px 5px 5px 5px;
+  margin-top: -995%;
+  margin-left: 110%;
+  background-color: #A42CD6;
+  font-family: "Tangerine", cursive;
+  color: #ffc96c;
+  padding-top: 1%;
+}
+/*styling customizations*/
+.customize p{background-color: #7a2800;
+  color: #eb9b13;
+  height: 300px;
+  width: 400px;
+  margin-left: 80%;
+  text-align: center;
+  padding: 20px; }
+  .ideas{
+  margin-left: 65%;
+  margin-top: -50%;
+  height: 900px;
+  width: 850px;
+  }
+   /*event management*/
+   .event_management{background-color: rgb(97, 6, 12);
+    height: 350px;
+    width:550px;
+    font-size: 50px;
+    color:#f5ffc6;
+    text-align: center;
+    margin-left: 75%;
+    margin-top: -45%;
+    padding: 5px;
+    }
+    /* Birthday function*/
+.birthday_flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  margin-left: 60%;
+  margin-top: 20px;
+ 
+}
+/* Wedding function */
+.wedding_flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  margin-left:90%;
+  margin-top: -300px;
+ 
+}
+/* anniversary function */
+.anniversary_flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  margin-left:120%;
+  margin-top: -300px;
+ 
+}
+/*retirement*/
+.Retirement_flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  margin-left:60%;
+  margin-top: 1%;
+  
+ 
+}
+/*Reunion*/
+.Reunion_flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  margin-left:90%;
+  margin-top: -30%;
+}
+/*new year*/
+.new-year_flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  margin-left:120%;
+  margin-top: -30%;
+}
+footer{background-color: #f5ffc6;
+  height: 350px;
+  width: 209%;
+margin-top: 20%;
+margin-left: -0.5%;
+}
+.place h3{font-size: 3rem;
+  margin-left: 30%;
+  margin-top: -6%;
+  }
+  .place p{font-size: 2.5rem;
+    margin-left: 30%;
+    margin-top: -1%;
+    }
+  .contact_detail h4{margin-top:-10%;
+   margin-left:60%}
+  .contact_detail p{margin-top:-3%;
+    margin-left:60%}
+  }

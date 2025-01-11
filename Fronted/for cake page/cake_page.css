@@ -1,0 +1,374 @@
+                                                           /*import google font*/
+ @import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lavishly+Yours&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Protest+Guerrilla&family=Road+Rage&family=Roboto+Slab:wght@100..900&family=Tangerine:wght@400;700&display=swap');
+                                                           /*body*/
+body{background-color: #fface4;
+font-family: "Tangerine", cursive;
+font-size: 50px;
+}
+                                                           /*header*/
+header{margin-top: -0.5%;
+background-color: #f5ffc6;
+height: 150px;
+width: 101%;
+margin-left: -0.5%;
+}
+.logo{height: 200px;
+border-radius: 20%;
+margin-left: 1%;}
+.navlinks{  display: flex;
+list-style: none;
+margin-left: 200px;
+gap: 21px;
+margin-top: -5.5%;
+font-size: 50px;
+
+}
+.navlinks a{color: #eb9b13;
+}
+                                                     /*menu drop for menu nav*/
+.button {
+background-color: #f5ffc6;
+color: #eb9b13;
+
+font-size: 16px;
+border: none;
+font-family: "Tangerine", cursive;
+font-size: 50px;
+}
+
+.menu_dropdown {
+position: relative;
+display: inline-block;
+}
+
+.content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.content a:hover {background-color: #f1f1f1}
+
+.menu_dropdown:hover .content {
+display: block;
+}
+
+.menu_dropdown:hover .button {
+background-color: #f5ffc6;
+}
+.cart{margin-top: -30px;
+margin-left: 86%;
+
+
+}
+.profile{margin-top: -26px;
+}
+h1{margin-top:10px;
+text-align: center;}
+
+                                                           /*scroll menu*/
+.scrolling {
+position: relative;
+width: 90%;
+margin: 0 auto;
+display: flex;
+align-items: center;
+}
+.recipe {
+width: 100%;
+overflow: hidden;
+padding: 20px 0;
+display: flex;
+scroll-behavior: smooth;
+}
+                                                       /* Product card styles */
+.product {
+flex: 0 0 auto;
+width: 300px; /* Using your original width */
+height: 310px;
+margin: 25px; 
+text-align: center;
+border-radius: 20px;
+border: 5px solid rgb(255, 209, 220);
+box-shadow: #fc58d9 5px 10px;
+transition: transform 0.3s ease;
+}
+
+.product:hover {
+border-radius: 20px;
+border: 4px solid rgb(245, 90, 209);
+}
+
+.product img {
+border-radius: 20px;
+width: 150px;
+height: auto;
+padding-top: 1%;
+}
+
+.name {
+text-align: center;
+font-size: 2rem;
+}
+.marble{margin-top: -21%;}
+.marblecake{margin-top:-15%;
+font-size:2rem}
+.butterscotch{margin-top:7%}
+.cheese{margin-top:5%;}
+.fruit{margin-top:5%;}
+.plum{margin-top:15%;}
+.plumcake{margin-top:9%;
+font-size:2rem}
+.lotus{margin-top:1%}
+.RedVelvet{margin-top:10%;}
+.redvelvet{margin-top:10%;
+font-size: 2rem;
+}
+.rocky{margin-top:12%}
+.rockyroad{margin-top:2%;
+font-size: 2rem;}
+.Mocha{margin-top:-10%;
+width: 100px;}
+.strawberry{margin-top: -10%;}
+.tiramisu{margin-top:7%;
+font-size: 2rem;}
+.whiteforest{margin-top: -5%;}
+.WhiteForest{margin-top: 1%;
+font-size: 2rem;}
+.vanilla{margin-top: 10%;}
+.chocolate{margin-top: 10%;}
+.Mousse{margin-top: 15%;}
+.mousse{margin-top:16%;
+font-size: 2rem;}
+.Peanut{margin-top:15%;
+font-size: 2rem;}
+.peanutbutter{margin-top:10%;
+font-size: 2rem;}
+.coconut{margin-top: 15%;}
+.coconutcake{margin-top: 5%;
+font-size: 2rem;}
+                                         /* Scroll button styles */
+.scroll_left, .scroll_right {
+position: absolute;
+padding: 15px 20px;
+background-color: rgba(255, 255, 255, 0.7);
+border: 2px solid #ffd1dc;
+border-radius: 50%;
+
+z-index: 1;
+font-size: 24px;
+}
+
+.scroll_left {
+left: 0;
+}
+
+.scroll_right {
+right: 0;
+}
+
+.scroll_left:hover, .scroll_right:hover {
+background-color: rgba(255, 209, 220, 0.9);
+}
+                                             /*gluten*/
+.glutan_free {
+width: 100%;
+overflow: hidden;
+padding: 20px 0;
+display: flex;
+scroll-behavior: smooth;
+}
+.trufflefruit{
+font-size: 2rem;}
+img.Carrot{
+width:100px;
+height: auto;}
+div.carrotcake{
+font-size: 2rem;
+margin-top:6%}
+img.Banana{
+width:100px;
+height: auto;}
+div.banana{
+font-size: 2rem;
+margin-top: 12%;}
+img.glutenfreechocolatecake{
+width:100px;
+height: auto;
+margin-top: 5%;}
+div.chococake{
+font-size: 2rem;
+margin-top: 12%;
+}
+img.royalicing-cake
+{width: 100px;
+height:auto ;
+}
+.royalicing{font-size: 2rem;
+margin-top: 12%;}
+img.pistachio{width: 100px;
+height:auto ;
+margin-top: -6%;}
+.Pistachiocake{font-size: 2rem;
+margin-top: 5%;
+}
+img.honey{width: 100px;
+height:auto ;
+margin-top: 6%;
+}
+.Honey{font-size: 2rem;
+margin-top: 12%;
+}
+/* Add specific styles for gluten-free scroll buttons */
+
+.gluten_scroll_left, .gluten_scroll_right {
+position: absolute;
+padding: 15px 20px;
+background-color: rgba(255, 255, 255, 0.7);
+border: 2px solid #ffd1dc;
+border-radius: 50%;
+z-index: 1;
+font-size: 24px;
+}
+
+.gluten_scroll_left{
+left: 0;
+}
+
+.gluten_scroll_right {
+right: 0;
+}
+
+.gluten_scroll_left:hover, .gluten_scroll_right:hover {
+background-color: rgba(255, 209, 220, 0.9);
+}
+
+                                          /* footer */
+footer{background-color: #f5ffc6;
+height: 350px;
+width: 101%;
+margin-top: 5%;
+margin-left: -0.5%;
+}
+.place h3{font-size: 3rem;
+margin-left: 30%;
+margin-top: -12%;
+}
+.place p{font-size: 2.5rem;
+margin-left: 30%;
+margin-top: -1%;
+}
+.contact_detail h4{margin-top:-11%;
+margin-left:60%}
+.contact_detail p{margin-top:-3%;
+margin-left:60%}
+/*media quires*/
+/*mobile*/
+@media(min-width:320px) and (max-width:480px){
+    header {
+      height: 140px;
+      width: 1500px;
+    }
+    .scrolling { position: relative;
+     width: 95%;
+     display: flex;
+     align-items: center;
+     margin-top: 10%;
+     }
+     .product {
+     flex: 0 0 auto;
+     width: 310px; /* Using your original width */
+     height: 350px;
+     margin: 50px; 
+     text-align: center;
+     border-radius: 20px;
+     border: 5px solid rgb(255, 209, 220);
+     box-shadow: #fc58d9 5px 10px;
+     transition: transform 0.3s ease;
+     }
+    footer{background-color: #f5ffc6;
+        height: 350px;
+        width: 101%;
+        margin-top: 25%;
+        margin-left: -0.5%;
+     }
+}
+/*tablets*/
+
+@media(min-width:481px) and (max-width:768px){
+header {
+    height: 140px;
+    width: 1500px;
+    }
+h1{margin-top:25px;
+   text-align: center;
+   }
+      
+.scrolling { position: relative;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    }
+.product {
+    flex: 0 0 auto;
+    width: 310px; /* Using your original width */
+    height: 350px;
+    margin: 50px; 
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid rgb(255, 209, 220);
+    box-shadow: #fc58d9 5px 10px;
+    transition: transform 0.3s ease;
+    }
+.name {
+    text-align: center;
+    font-size: 3.5rem;
+    }
+.trufflefruit{
+    font-size: 3.5rem;}
+div.carrotcake{
+    font-size: 3.5rem;} 
+div.banana{
+font-size: 3.5rem;
+margin-top: 12%;}
+                           
+div.chococake{
+ font-size: 3.5rem;
+ margin-top: 12%;
+ }
+.royalicing{font-size: 3.5rem;
+   margin-top: 12%;
+ }
+.Pistachiocake{font-size: 3.5rem;
+ margin-top: 5%;
+ }
+                            
+.Honey{font-size: 3.5rem;
+    margin-top: 12%;
+    }
+footer{background-color: #f5ffc6;
+    height: 350px;
+    width: 101%;
+    margin-top: 32%;
+    margin-left: -0.5%;
+ }
+}
+/*Laptop*/
+@media(min-width:1024px) and (max-width:1440px){
+header {
+ height: 140px;
+ width: 1510px;
+ }    
+
+}
